@@ -11,6 +11,7 @@ export default function styleConstructor(theme = {}) {
     knob,
     weekdays,
     header: {
+      backgroundColor: appStyle.calendarBackground,
       overflow: 'hidden',
       justifyContent: 'flex-end',
       position:'absolute',
