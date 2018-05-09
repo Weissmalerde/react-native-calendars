@@ -376,7 +376,7 @@ export default class AgendaView extends Component {
         }
 
         return (
-            <View onLayout={this.onLayout} style={[this.props.style, {flex: 1, overflow: 'hidden', backgroundColor: defaultStyle.appForegroundColor}]}>
+            <View onLayout={this.onLayout} style={[this.props.style, {flex: 1, overflow: 'hidden', backgroundColor: defaultStyle.appBackgroundColor}]}>
                 <View style={[this.styles.reservations, { marginTop: (this.props.showCustomHeader ? this.props.customHeaderHeight : 0) }]}>
                     {this.renderReservations()}
                 </View>
